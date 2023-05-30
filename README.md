@@ -1,4 +1,4 @@
-# React-Native-coffee-app-starter-kit
+# coffeebuddy Built with React Native and viewed on Expo Go
 
 ## Get Started
 
