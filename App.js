@@ -4,11 +4,16 @@ import colors from "./app/config/colors";
 import Homescreen from "./app/screens/HomeScreen";
 import CoffeeDetailsScreen from "./app/screens/CoffeeDetailsScreen";
 import coffees from "./app/config/coffees";
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+
 
 const App = () => {
   return (
     <View style={{ flex: 1, backgroundColor: colors.dark }}>
-      <CoffeeDetailsScreen coffee={coffees[4]} />
+      <Homescreen />
+      <CoffeeDetailsScreen coffee={coffees[3]} />
     </View>
   );
 };

@@ -303,13 +303,13 @@ const CoffeeDetailsScreen = ({ coffee }) => {
             Price
           </Text>
           <View style={{ flexDirection: "row" }}>
-            <Text style={{ color: colors.primary, fontSize: SPACING * 1.7 }}>
+            <Text style={{ color: colors.primary, fontSize: SPACING * 2 }}>
               $
             </Text>
             <Text
               style={{
                 color: colors.white,
-                fontSize: SPACING * 1.7,
+                fontSize: SPACING * 2,
                 marginLeft: SPACING / 2,
               }}
             >
